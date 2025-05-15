@@ -32,7 +32,7 @@ const userSchema = new mongoose.Schema({
     required: function () {
       return this.role === 'Parent';
     },
-    minlength: 6,
+    minlength: 8,
   },
 }, {
   timestamps: true,
